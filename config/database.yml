@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: flickr_api_production
-  username: flickr_api
+  adapter: postgresql
+  username: 
   password: <%= ENV['FLICKR_API_DATABASE_PASSWORD'] %>
