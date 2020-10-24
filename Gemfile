@@ -25,6 +25,13 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# Flickr API library
+gem 'flickr', '~> 2.0', '>= 2.0.2'
+
+gem "figaro"
+
+gem 'flash_rails_messages'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
